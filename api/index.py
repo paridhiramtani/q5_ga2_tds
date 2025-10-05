@@ -22,10 +22,6 @@ DATA_FILE = Path(__file__).parent / "q-vercel-latency.json"
 df = pd.read_json(DATA_FILE)
 
 
-@app.get("/")
-async def root():
-    return {"message": "Vercel Latency Analytics API is running."}
-
 
 @app.post("/api/")
 async def get_latency_stats(request: Request):
