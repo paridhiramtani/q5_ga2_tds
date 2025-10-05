@@ -1,0 +1,8 @@
+[
+    {"region": "us-east", "latency": 120},
+    {"region": "us-east", "latency": 110},
+    {"region": "us-west", "latency": 200},
+    {"region": "us-west", "latency": 180},
+    {"region": "eu-central", "latency": 150},
+    {"region": "eu-central", "latency": 160}
+]
